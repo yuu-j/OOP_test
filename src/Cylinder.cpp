@@ -1,3 +1,6 @@
+# ifndef CYLINDER_CPP
+# define CYLINDER_CPP
+
 # include "Cylinder.h"
 
 double Cylinder :: SurfaceArea(){
@@ -26,3 +29,5 @@ ostream & operator<<(ostream & out, Cylinder & cldr)
     
     return ;
 }
+
+# endif
